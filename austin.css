@@ -1,0 +1,38 @@
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,213,0);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0,0,0);
+    
+}
+
+.li-nav {
+    float: left;
+    font-size: 20px;
+}
+
+.li-nav-right {
+    float: right;
+    font-size: 20px;
+}
+
+.li-a-nav {
+    display: block;
+    color: rgb(42,0,128);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration:.4s;    
+}
+
+li a:hover {
+    background-color: rgb(42,0,128);
+    color: rgb(255,213,0);
+    transform:scale(1.1)
+}
